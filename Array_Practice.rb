@@ -13,3 +13,12 @@ i = 0
   
   print("")
   print("Now I know that you know that I know my ABCs")
+
+vol =[2, 6, 3, 5.5, 1]
+i = 0
+
+5.times do
+  play :c4, amp: (vol[i])
+  sleep 1
+  i= i + 1
+end
